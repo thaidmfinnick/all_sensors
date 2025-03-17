@@ -14,7 +14,7 @@ import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.android.FlutterActivity;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.EventChannel;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
+// import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 import static android.content.Context.POWER_SERVICE;
 
@@ -35,12 +35,12 @@ public class AllSensorsPlugin implements FlutterPlugin {
 
 
   /** Plugin registration. */
-  public static void registerWith(Registrar registrar) {
+  // public static void registerWith(Registrar registrar) {
 
-    AllSensorsPlugin plugin = new AllSensorsPlugin();
-    plugin.setupEventChannels(registrar.context(), registrar.messenger());
+  //   AllSensorsPlugin plugin = new AllSensorsPlugin();
+  //   plugin.setupEventChannels(registrar.context(), registrar.messenger());
 
-  }
+  // }
 
   private void setupEventChannels(Context context, BinaryMessenger messenger) {
 
